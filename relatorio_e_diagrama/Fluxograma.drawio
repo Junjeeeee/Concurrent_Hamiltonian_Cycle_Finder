@@ -1,0 +1,297 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" version="24.9.2">
+  <diagram name="Page-1" id="18AF6GSKCAHl--NSCcGb">
+    <mxGraphModel dx="1114" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-1" target="65Y4QQbKUDswLMCyFL1V-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-1" value="Início" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-5" target="65Y4QQbKUDswLMCyFL1V-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-5" value="&lt;div&gt;Inicialização do&lt;/div&gt;&lt;div&gt;grafo&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-6" target="65Y4QQbKUDswLMCyFL1V-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-6" value="&lt;div&gt;Geração de caminhos&lt;/div&gt;&lt;div&gt;Iniciais para o pool&lt;/div&gt;&lt;div&gt;de tarefas&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="480" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-7" target="65Y4QQbKUDswLMCyFL1V-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-7" value="&lt;div&gt;Criação das threads&lt;/div&gt;&lt;div&gt;e dos argumentos&lt;/div&gt;&lt;div&gt;que elas terão&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-8" target="65Y4QQbKUDswLMCyFL1V-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-8" value="&lt;div&gt;Grafo:&lt;/div&gt;&lt;div&gt;&amp;nbsp;Listas de Hashsets com os&lt;/div&gt;&lt;div&gt;vizinhos de saída e os vizinhos de&lt;/div&gt;&lt;div&gt;entrada&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="230" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.442;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-11" target="65Y4QQbKUDswLMCyFL1V-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-11" value="Input:&lt;br&gt;&lt;div&gt;Lista de arestas&lt;/div&gt;&lt;div&gt;do grafo.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Booleano que indica&lt;/div&gt;&lt;div&gt;se o grafo é&lt;/div&gt;&lt;div&gt;direcionado ou não.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Inteiro que indica a&lt;/div&gt;&lt;div&gt;quantidade de&lt;/div&gt;&lt;div&gt;threads&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-17" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Estruturas de Dados&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="585" y="40" width="170" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-18" value="graph_Creator()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="410" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-20" value="&lt;div&gt;Main/Concurrent_Hamilton()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="39.5" y="380" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-21" value="generate_Paths()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="410" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-22" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="380" as="sourcePoint" />
+            <mxPoint x="270" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-24" value="Main()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-30" target="65Y4QQbKUDswLMCyFL1V-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="420" />
+              <mxPoint x="560" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-30" value="&lt;div&gt;Pool de tarefas consiste de:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Pilha com um par de&lt;br&gt;&lt;/div&gt;&lt;div&gt;estruturas de dados dentro, que são:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Pilha que representa o caminho Inicial&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Hashset que guarda os vértices&lt;/div&gt;&lt;div&gt;pertencentes ao caminho&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="585" y="360" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-32" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="179" y="670" as="sourcePoint" />
+            <mxPoint x="179" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-36" target="65Y4QQbKUDswLMCyFL1V-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-36" value="&lt;div&gt;Argumento das threads: Struct com&lt;/div&gt;&lt;div&gt;dados:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Referência para os 2 Mutex&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Referência para o pool de tarefas&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Referência para o booleano que avisa&lt;/div&gt;&lt;div&gt;que um caminho foi encontrado&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Referência para o vetor onde o caminho hamiltoniano deve ser guardado&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Quantidade de vértices&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Cópias do Grafo&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="530" width="310" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-39" target="65Y4QQbKUDswLMCyFL1V-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-39" value="&lt;div&gt;Thread&lt;br&gt;&lt;/div&gt;&lt;div&gt;Procura &lt;br&gt;&lt;/div&gt;&lt;div&gt;trabalho&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-40" target="65Y4QQbKUDswLMCyFL1V-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-40" value="&lt;div&gt;Referência para Pool de tarefas&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Tarefa atual: Um par com 2&lt;/div&gt;&lt;div&gt;estruturas de dados: Uma&lt;/div&gt;&lt;div&gt;Pilha que representa o caminho Inicial&lt;/div&gt;&lt;div&gt;e um Hashset que guarda os vértices&lt;/div&gt;&lt;div&gt;pertencentes à pilha&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="800" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-42" target="65Y4QQbKUDswLMCyFL1V-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-42" value="&lt;div&gt;Thread procura&lt;/div&gt;&lt;div&gt;caminho hamiltoniano&lt;/div&gt;&lt;div&gt;a partir de caminho&lt;/div&gt;&lt;div&gt;inicial dado&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="1170" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-43" target="65Y4QQbKUDswLMCyFL1V-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-43" target="65Y4QQbKUDswLMCyFL1V-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-43" value="Encontrou?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="1400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-44" target="65Y4QQbKUDswLMCyFL1V-55" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-44" value="&lt;div&gt;Muda booleano que&lt;/div&gt;&lt;div&gt;avisa que encontrou&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="159.5" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-45" target="65Y4QQbKUDswLMCyFL1V-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="1440" />
+              <mxPoint x="840" y="1040" />
+              <mxPoint x="780" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-45" target="65Y4QQbKUDswLMCyFL1V-85" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-45" value="Alguma outra thread encontrou?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1380" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-46" target="65Y4QQbKUDswLMCyFL1V-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-46" target="65Y4QQbKUDswLMCyFL1V-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-46" value="Há trabalho?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="940" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-48" value="Thread finaliza" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-50" value="Não" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="490" y="950" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-52" value="Sim" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="750" y="1410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-54" value="Não" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="455" y="1410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-55" target="65Y4QQbKUDswLMCyFL1V-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-55" value="&lt;div&gt;Muda o vetor que&lt;/div&gt;&lt;div&gt;indica o caminho&lt;/div&gt;&lt;div&gt;hamiltoniano&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="159.5" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-56" value="Thread finaliza" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="159.5" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-63" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="1800" as="sourcePoint" />
+            <mxPoint x="39.5" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-64" value="Thread" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="39.5" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-74" value="Não" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="650" y="1515" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="65Y4QQbKUDswLMCyFL1V-76" target="65Y4QQbKUDswLMCyFL1V-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-76" value="&lt;div&gt;Pilhas de modificações para reverter&lt;/div&gt;&lt;div&gt;alterações feitas no processo de&lt;/div&gt;&lt;div&gt;dedução do algoritmo de Rubin,&lt;/div&gt;&lt;div&gt;isto quando estivermos na etapa de&lt;/div&gt;&lt;div&gt;backtracking&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="515" y="1145" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-79" value="thread()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="390" y="710" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-82" value="Sim" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="420" y="1020" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-83" value="hamiltonian_path()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="420" y="1100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-84" value="deductions()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="395" y="1290" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-85" target="65Y4QQbKUDswLMCyFL1V-86" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-85" target="65Y4QQbKUDswLMCyFL1V-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="715" y="1750" />
+              <mxPoint x="110" y="1750" />
+              <mxPoint x="110" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-85" value="&lt;div&gt;Ainda há caminho&lt;/div&gt;&lt;div&gt;possível a partir do&lt;/div&gt;&lt;div&gt;inicial dado?&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="1590" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-86" target="65Y4QQbKUDswLMCyFL1V-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-86" value="&lt;div&gt;Tentar esse&lt;/div&gt;&lt;div&gt;caminho&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="1610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-89" value="Backtracking" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="500" y="1640" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-90" value="local_unstack()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="500" y="1660" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-91" value="unstack()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="500" y="1680" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-92" value="Sim" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="560" y="1610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-95" value="Não" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="710" y="1700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-97" target="65Y4QQbKUDswLMCyFL1V-100" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-97" value="&lt;div&gt;Join é feito, aguardando threads&lt;/div&gt;&lt;div&gt;finalizarem&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-99" target="65Y4QQbKUDswLMCyFL1V-102" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-99" value="Vetor com caminho hamiltoniano" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="2045" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-100" target="65Y4QQbKUDswLMCyFL1V-102" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="65Y4QQbKUDswLMCyFL1V-100" target="65Y4QQbKUDswLMCyFL1V-101" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-100" value="&lt;div&gt;Há caminho&lt;/div&gt;&lt;div&gt;Hamiltoniano?&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="347.5" y="1910" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-101" value="&lt;div&gt;Imprime que&lt;/div&gt;&lt;div&gt;não existe&lt;/div&gt;&lt;div&gt;caminho hamiltoniano&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="169.5" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-102" value="&lt;div&gt;Imprime vetor&lt;/div&gt;&lt;div&gt;com caminho&lt;/div&gt;&lt;div&gt;hamiltoniano&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="2040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-107" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="2120" as="sourcePoint" />
+            <mxPoint x="140" y="1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-108" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="1910" as="sourcePoint" />
+            <mxPoint x="79.5" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-109" value="&lt;div&gt;Main/Concurrent_Hamilton()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="1800" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-110" value="Main()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="74.5" y="1920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-111" value="hamiltonian_path()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="410" y="1330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-112" value="Concurrent_Hamilton()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="410" y="570" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-113" value="Sim" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="287.5" y="1410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-114" value="Não" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="289.5" y="1920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65Y4QQbKUDswLMCyFL1V-115" value="Sim" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="410" y="1990" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g45dooyv7kzq0ezPYYfc-1" value="deductions()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1070" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
