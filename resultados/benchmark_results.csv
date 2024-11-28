@@ -1,0 +1,25 @@
+Grafo,Tempo Sequencial (s),Tempo Concorrente (1 thread) (s),Tempo Concorrente (2 threads) (s),Tempo Concorrente (4 threads) (s),Tempo Concorrente (8 threads) (s),Tempo Concorrente (16 threads) (s)
+100 grafos com 10 vértices,0.0840 s,0.2886 s,0.3782 s,0.3567 s,0.3878 s,0.5309 s
+100 grafos com 15 vértices,0.4285 s,0.5770 s,0.3377 s,0.3154 s,0.3301 s,0.5701 s
+100 grafos com 16 vértices,3.2839 s,4.6098 s,2.6415 s,1.3970 s,0.8949 s,0.7969 s
+100 grafos com 17 vértices,9.3954 s,18.6425 s,10.3443 s,3.8613 s,2.5288 s,1.7334 s
+100 grafos com 18 vértices,14.7725 s,20.9832 s,11.3228 s,5.9670 s,3.7389 s,2.6230 s
+100 grafos com 19 vértices,54.2120 s,82.8874 s,42.8109 s,24.5897 s,16.2374 s,10.5676 s
+100 grafos com 20 vértices,53.5086 s,88.1542 s,47.1856 s,19.4529 s,12.4955 s,9.6175 s
+100 grafos com 21 vértices,182.1798 s,276.3578 s,150.6975 s,76.2292 s,51.8470 s,41.1851 s
+100 grafos com 22 vértices,53.0649 s,93.9243 s,40.1040 s,28.4291 s,12.8006 s,9.1419 s
+100 grafos com 22 vértices sem limite de arestas,2.0100 s,1.4538 s,0.3321 s,0.2833 s,2.2014 s,0.5802 s
+100 grafos com tamanhos aleatórios,118.7929 s,186.8027 s,105.2096 s,66.2921 s,28.9235 s,23.6700 s
+
+Grafo,Speedup Sequencial,Speedup (1 thread),Speedup (2 threads),Speedup (4 threads),Speedup (8 threads),Speedup (16 threads)
+100 grafos com 10 vértices,N/A,0.29x,0.22x,0.24x,0.22x,0.16x
+100 grafos com 15 vértices,N/A,0.74x,1.27x,1.36x,1.30x,0.75x
+100 grafos com 16 vértices,N/A,0.71x,1.24x,2.35x,3.67x,4.12x
+100 grafos com 17 vértices,N/A,0.50x,0.91x,2.43x,3.72x,5.42x
+100 grafos com 18 vértices,N/A,0.70x,1.30x,2.48x,3.95x,5.63x
+100 grafos com 19 vértices,N/A,0.65x,1.27x,2.20x,3.34x,5.13x
+100 grafos com 20 vértices,N/A,0.61x,1.13x,2.75x,4.28x,5.56x
+100 grafos com 21 vértices,N/A,0.66x,1.21x,2.39x,3.51x,4.42x
+100 grafos com 22 vértices,N/A,0.56x,1.32x,1.87x,4.15x,5.80x
+100 grafos com 22 vértices sem limite de arestas,N/A,1.38x,6.05x,7.10x,0.91x,3.46x
+100 grafos com tamanhos aleatórios,N/A,0.64x,1.13x,1.79x,4.11x,5.02x

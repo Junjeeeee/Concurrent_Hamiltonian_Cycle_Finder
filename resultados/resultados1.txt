@@ -1,0 +1,209 @@
+Processando 100 grafos do arquivo random_graphs/100_10.txt
+Codigo sequencial
+Tempo total: 0.0804 segundos
+
+Codigo concorrente com  1 threads
+Tempo total: 0.3518 segundos
+
+Codigo concorrente com  2 threads
+Tempo total: 0.4278 segundos
+
+Codigo concorrente com  4 threads
+Tempo total: 0.4149 segundos
+
+Codigo concorrente com  8 threads
+Tempo total: 0.4584 segundos
+
+Codigo concorrente com  16 threads
+Tempo total: 0.4375 segundos
+
+Processando 100 grafos do arquivo random_graphs/100_15.txt
+Codigo sequencial
+Tempo total: 0.4238 segundos
+
+Codigo concorrente com  1 threads
+Tempo total: 0.5809 segundos
+
+Codigo concorrente com  2 threads
+Tempo total: 0.3564 segundos
+
+Codigo concorrente com  4 threads
+Tempo total: 0.3854 segundos
+
+Codigo concorrente com  8 threads
+Tempo total: 0.4120 segundos
+
+Codigo concorrente com  16 threads
+Tempo total: 0.6751 segundos
+
+Processando 100 grafos do arquivo random_graphs/100_16.txt
+Codigo sequencial
+Tempo total: 3.2271 segundos
+
+Codigo concorrente com  1 threads
+Tempo total: 4.6023 segundos
+
+Codigo concorrente com  2 threads
+Tempo total: 2.6084 segundos
+
+Codigo concorrente com  4 threads
+Tempo total: 1.3922 segundos
+
+Codigo concorrente com  8 threads
+Tempo total: 0.8866 segundos
+
+Codigo concorrente com  16 threads
+Tempo total: 0.7466 segundos
+
+Processando 100 grafos do arquivo random_graphs/100_17.txt
+Codigo sequencial
+Tempo total: 9.3290 segundos
+
+Codigo concorrente com  1 threads
+Tempo total: 18.5829 segundos
+
+Codigo concorrente com  2 threads
+Tempo total: 10.3290 segundos
+
+Codigo concorrente com  4 threads
+Tempo total: 3.8667 segundos
+
+Codigo concorrente com  8 threads
+Tempo total: 2.5316 segundos
+
+Codigo concorrente com  16 threads
+Tempo total: 1.7929 segundos
+
+Processando 100 grafos do arquivo random_graphs/100_18.txt
+Codigo sequencial
+Tempo total: 14.7591 segundos
+
+Codigo concorrente com  1 threads
+Tempo total: 20.9682 segundos
+
+Codigo concorrente com  2 threads
+Tempo total: 11.3304 segundos
+
+Codigo concorrente com  4 threads
+Tempo total: 5.9568 segundos
+
+Codigo concorrente com  8 threads
+Tempo total: 3.7603 segundos
+
+Codigo concorrente com  16 threads
+Tempo total: 2.6258 segundos
+
+Processando 100 grafos do arquivo random_graphs/100_19.txt
+Codigo sequencial
+Tempo total: 54.0344 segundos
+
+Codigo concorrente com  1 threads
+Tempo total: 82.7354 segundos
+
+Codigo concorrente com  2 threads
+Tempo total: 42.6192 segundos
+
+Codigo concorrente com  4 threads
+Tempo total: 24.5029 segundos
+
+Codigo concorrente com  8 threads
+Tempo total: 16.0416 segundos
+
+Codigo concorrente com  16 threads
+Tempo total: 10.4307 segundos
+
+Processando 100 grafos do arquivo random_graphs/100_20.txt
+Codigo sequencial
+Tempo total: 53.5656 segundos
+
+Codigo concorrente com  1 threads
+Tempo total: 88.0746 segundos
+
+Codigo concorrente com  2 threads
+Tempo total: 46.9850 segundos
+
+Codigo concorrente com  4 threads
+Tempo total: 19.3508 segundos
+
+Codigo concorrente com  8 threads
+Tempo total: 12.3836 segundos
+
+Codigo concorrente com  16 threads
+Tempo total: 9.4398 segundos
+
+Processando 100 grafos do arquivo random_graphs/100_21.txt
+Codigo sequencial
+Tempo total: 181.6916 segundos
+
+Codigo concorrente com  1 threads
+Tempo total: 276.6299 segundos
+
+Codigo concorrente com  2 threads
+Tempo total: 150.3435 segundos
+
+Codigo concorrente com  4 threads
+Tempo total: 75.6216 segundos
+
+Codigo concorrente com  8 threads
+Tempo total: 52.0998 segundos
+
+Codigo concorrente com  16 threads
+Tempo total: 40.8791 segundos
+
+Processando 100 grafos do arquivo random_graphs/100_22.txt
+Codigo sequencial
+Tempo total: 53.0600 segundos
+
+Codigo concorrente com  1 threads
+Tempo total: 93.9611 segundos
+
+Codigo concorrente com  2 threads
+Tempo total: 39.9389 segundos
+
+Codigo concorrente com  4 threads
+Tempo total: 28.2598 segundos
+
+Codigo concorrente com  8 threads
+Tempo total: 12.6781 segundos
+
+Codigo concorrente com  16 threads
+Tempo total: 9.3132 segundos
+
+Processando 100 grafos do arquivo random_graphs/22_no_limit.txt
+Codigo sequencial
+Tempo total: 1.9985 segundos
+
+Codigo concorrente com  1 threads
+Tempo total: 1.4723 segundos
+
+Codigo concorrente com  2 threads
+Tempo total: 0.2206 segundos
+
+Codigo concorrente com  4 threads
+Tempo total: 0.1398 segundos
+
+Codigo concorrente com  8 threads
+Tempo total: 2.1366 segundos
+
+Codigo concorrente com  16 threads
+Tempo total: 0.6047 segundos
+
+Processando 100 grafos do arquivo random_graphs/random_sizes.txt
+Codigo sequencial
+Tempo total: 118.2947 segundos
+
+Codigo concorrente com  1 threads
+Tempo total: 186.5355 segundos
+
+Codigo concorrente com  2 threads
+Tempo total: 104.9848 segundos
+
+Codigo concorrente com  4 threads
+Tempo total: 65.5661 segundos
+
+Codigo concorrente com  8 threads
+Tempo total: 28.8691 segundos
+
+Codigo concorrente com  16 threads
+Tempo total: 23.6819 segundos
+
